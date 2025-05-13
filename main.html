@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Nav-Bar Example</title>
+  <style>
+    .nav-bar {
+      background-color: #D3D3D3;
+      padding: 10px;
+    }
+
+    .nav-bar ul {
+      list-style: none; /* Remove bullets */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-bar li {
+      display: inline; /* Display list items horizontally */
+      margin-right: 1rem; /* Spacing between items */
+    }
+
+    /* Add the container background-color */
+    .container {
+      background-color: rgb(211, 211, 211); /* The background color you want to test */
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<container class = "container">
-		<nav class = "nav-bar">
-		<ul>
-			<li>Home</li>
-			<li>About</li>
-			<li>Contact Us</li>
-			<li>Itinerary</li>
-		</ul>
-		</nav>
-	</container>
 
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Nav Bar -->
+  <div class="container"> <!-- Container element with the background color -->
+    <nav class="nav-bar">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact Us</li>
+        <li>Itinerary</li>
+      </ul>
+    </nav>
+  </div>
 
 </body>
-
 </html>

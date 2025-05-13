@@ -4,7 +4,8 @@
 	padding:10px;
 }
 .contaainer{
-      background-color: rgb(211, 211, 211);
+      /*background-color: rgb(211, 211, 211);*/
+	padding:10px;
 }
 ul{
 	display:flex;
