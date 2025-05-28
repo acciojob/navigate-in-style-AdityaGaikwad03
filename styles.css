@@ -1,13 +1,9 @@
-/*  your css code here. If applicable */
-.nav-bar{
+.contaner{
 	background-color:#D3D3D3;
 	padding:10px;
 }
-ul{
-	display:flex;
-}
-li{
+ul, li{
 	display:inline;
-	margin-right:16px;
-	list-style:non;
+	margin-right:1rem;
+	list-style:none;
 }
