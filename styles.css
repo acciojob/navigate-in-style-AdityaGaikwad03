@@ -1,4 +1,5 @@
-.container {
+
+    .container {
       background-color: #D3D3D3; /* rgb(211, 211, 211) */
       padding: 10px;
     }
@@ -7,9 +8,9 @@
       list-style: none;
       margin: 0;
       padding: 0;
-      display: flex; /* Required by Cypress test */
+      display: flex; /* Required for horizontal layout */
     }
 
-    .container li {
-      margin-right: 16px; /* Explicitly 16px */
+    .container ul li {
+      margin-right: 16px; /* Explicit margin Cypress expects */
     }
